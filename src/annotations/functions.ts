@@ -43,5 +43,4 @@ const logWeather_2=({date,weather} : {date : Date,weather:string}) : void =>{
     console.log(weather);
 } 
 
-
 logWeather(todaysWeather)
