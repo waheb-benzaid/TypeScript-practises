@@ -24,3 +24,21 @@ const carsByMake_ : string[][]= []
 
 const days : (number | Date) [] = [new Date(),2] 
 
+//----------------------------------------------------------------------------------------------
+type Drink = [string,boolean,number]
+
+const cocaCola : Drink = ["Black",true,40] 
+
+// the Drink is a Type alias
+// Just use it for defining the types f the tuple , we can do instead : 
+
+const pepsi1 :[string,boolean,number] = ["Black",true,40] 
+// we can use the alias Drink to avoid the repetition 
+const pepsi2 : Drink = ["Black",true,40] 
+
+
+
+
+
+
+
