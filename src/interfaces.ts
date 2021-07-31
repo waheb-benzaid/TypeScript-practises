@@ -36,6 +36,22 @@ printSummary(oldCivic)
 
 
 
+// Other example 
+
+const drink = {
+    color : 'brown', 
+    carbonated : true,
+    sugar : 40,
+    summary():string{ // we have also here the function summary(), no exactly the same summary fucntion of oldCivic Object
+        return `My drink has ${this.sugar} grams of sugar`
+    }
+}
+
+printSummary(drink)
+// We can use the same fucntion printSummary with two different objects 
+// This is the power of Interfaces
+
+
 
 
 
