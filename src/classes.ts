@@ -24,8 +24,12 @@ const vehicle = new Vehicle('Orange') //I have to put this param because it's de
 console.log(vehicle.color);
 
 
-
 class Car extends Vehicle {
+
+    constructor(public wheels : number, color : string){
+        super(color)
+
+    }
     drive():void{
         console.log('Vroom');
     }
@@ -36,8 +40,8 @@ class Car extends Vehicle {
     }
 }
 
-//const car = new Car()
-//car.startDrivingProcess()
+const car = new Car(2 , 'red')
+car.startDrivingProcess()
 
 
 // 1- Private methods could be called just in their classes.

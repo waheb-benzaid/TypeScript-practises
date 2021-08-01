@@ -19,6 +19,7 @@ const carsByMake = [
 const carsByMake_ : string[][]= []
 
 
+
 //Arrays with different types
 //We have to add type annotation to use multiple type in a signle array in TS
 
